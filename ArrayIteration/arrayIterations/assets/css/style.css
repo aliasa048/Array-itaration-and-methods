@@ -1,0 +1,339 @@
+.main-container {
+  min-width: 96% !important;
+}
+
+.header-area .main-container .nav {
+  display: flex;
+  align-items: center;
+}
+.header-area .main-container .logo {
+  width: 18%;
+}
+.header-area .main-container .logo img {
+  width: 168px;
+}
+.header-area .main-container #menu {
+  display: none !important;
+  font-size: 25px;
+  color: #7e5a4e;
+  display: flex;
+  justify-content: center;
+}
+.header-area .main-container .navbar-links {
+  width: 61%;
+}
+.header-area .main-container .navbar-links a {
+  color: #7e5a4e;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 20px;
+}
+.header-area .main-container .navbar-links a:first-child {
+  margin-left: 0;
+}
+.header-area .main-container .wp {
+  width: 20%;
+  height: 80px;
+  background-color: #7e5a4e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-area .main-container .wp .description {
+  display: flex;
+  align-items: center;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.header-area .main-container .wp .description .circle {
+  margin-right: 10px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 3px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.header-area .main-container .wp .description .contact .about {
+  font-size: 20px;
+  font-weight: 500;
+}
+.header-area .main-container .wp .description .contact .phone {
+  font-size: 16px;
+}
+
+.blog {
+  height: 362px;
+  background-image: url(../img/different-types-of-bread-with-spikelets-.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.blog::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.blog .text-area {
+  position: relative;
+  z-index: 1;
+}
+.blog .text-area h1 {
+  font-size: 74px;
+  color: white;
+}
+.blog .text-area .link {
+  display: flex;
+  align-items: center;
+}
+.blog .text-area .link span {
+  font-size: 20px;
+  color: white;
+}
+.blog .text-area .link .line {
+  margin-right: 12px;
+  margin-left: 12px;
+  width: 15px;
+  height: 3px;
+  background-color: rgb(129, 100, 46);
+}
+
+.card-sec {
+  background-image: url(../img/43.jpg);
+}
+.card-sec .main-container {
+  padding-top: 80px;
+  padding-bottom: 110px;
+}
+.card-sec .main-container .row .card-area {
+  margin-top: 40px;
+}
+.card-sec .main-container .row .card-area .my-card {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+.card-sec .main-container .row .card-area .my-card .img-area {
+  width: 100%;
+  height: 443px;
+  background-image: url(../img/pancakes-with-vanilla-sauce.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.card-sec .main-container .row .card-area .my-card .img-area span {
+  display: inline-block;
+  width: 93px;
+  height: 28px;
+  color: #f62408;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.card-sec .main-container .row .card-area .my-card .text-area {
+  padding: 10px 25px 0px;
+}
+.card-sec .main-container .row .card-area .my-card .text-area .title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+.card-sec .main-container .row .card-area .my-card .text-area .description {
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.card-sec .main-container .row .card-area .my-card .text-area .date {
+  padding: 10px 0px;
+  color: #f62408;
+  border-top: 1px solid #e6dfdf;
+}
+
+.dateer {
+  background-image: url(../img/bread-and-bakery.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.dateer::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.dateer .date-top {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  position: relative;
+  z-index: 1;
+}
+.dateer .date-top .main-container .row {
+  display: flex;
+  justify-content: space-between;
+}
+.dateer .date-top .main-container .row .part1 .title {
+  margin-bottom: 16px;
+}
+.dateer .date-top .main-container .row .part1 .title img {
+  width: 178px;
+}
+.dateer .date-top .main-container .row .part1 .description {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 34px;
+}
+.dateer .date-top .main-container .row .part1 .web-area {
+  display: flex;
+  align-items: center;
+}
+.dateer .date-top .main-container .row .part1 .web-area .icon {
+  width: 30px;
+  height: 30px;
+  background-color: #8a0b08;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-right: 6px;
+}
+.dateer .date-top .main-container .row .part2 h4 {
+  color: white;
+}
+.dateer .date-top .main-container .row .part2 p {
+  color: white;
+  margin-bottom: 7px;
+}
+.dateer .date-top .main-container .row .part2 p i {
+  color: #e46e49;
+  margin-right: 7px;
+}
+.dateer .date-top .main-container .row .part2 .p4 {
+  margin-bottom: 2px;
+}
+.dateer .date-top .main-container .row .part2 span {
+  color: white;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 13px;
+}
+.dateer .date-bottom {
+  color: white;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 80px;
+}
+.dateer .date-bottom .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dateer .date-bottom .row .col-lg-8 {
+  font-size: 13px;
+}
+.dateer .date-bottom .row .col-lg-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dateer .date-bottom .row .col-lg-3 .terms {
+  display: flex;
+  align-items: center;
+}
+.dateer .date-bottom .row .col-lg-3 .terms .dot {
+  width: 6px;
+  height: 6px;
+  background-color: #e46e49;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 992px) {
+  .dateer .date-top .title {
+    display: flex;
+    justify-content: center;
+  }
+  .dateer .date-top .description {
+    padding: 0px 90px;
+    text-align: center;
+  }
+  .dateer .date-top .web-area {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .dateer .date-top .part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .dateer .date-top .description {
+    padding: 0px 15px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dateer .date-bottom .col-lg-8 {
+    text-align: center;
+  }
+  .dateer .date-bottom .col-lg-3 {
+    justify-content: space-evenly !important;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .header-area .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-area .nav .navbar-links {
+    display: none;
+  }
+  .header-area .nav .wp {
+    width: 50%;
+  }
+  .header-area .nav .logo {
+    width: 40%;
+  }
+  .header-area .nav .logo img {
+    max-width: 100%;
+  }
+  .header-area .nav #menu {
+    display: flex !important;
+    width: 10%;
+  }
+  .header-area .nav .description {
+    text-align: left !important;
+  }
+  .header-area .nav .description .circle {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .header-area .nav .description .circle i {
+    font-size: 14px !important;
+  }
+  .header-area .nav .description .about {
+    font-size: 12px !important;
+  }
+  .header-area .nav .description .phone {
+    font-size: 9px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
